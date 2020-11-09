@@ -1,0 +1,34 @@
+.contact tr {
+  height: 7rem;
+}
+.contact th {
+  width: 150px;
+  text-align: right;
+  padding-right: 10px;
+}
+.contact input {
+  width: 480px;
+}
+/* ここがわかりにくい
+*/
+.contact input[type=radio]{
+  width: 30px;
+}
+.contact textarea {
+  width: 480px;
+}
+.button {
+  margin: 10px;
+  padding: center;
+  background-color: #00d5ff;
+  color: #fff;
+  border-color: #fff;
+}
+.button:hover {
+  opacity: 0.6;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
